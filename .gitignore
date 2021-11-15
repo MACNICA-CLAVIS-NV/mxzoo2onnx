@@ -5,3 +5,4 @@ synset.txt
 *.onnx
 *.dot
 *.png
+*.jpg
