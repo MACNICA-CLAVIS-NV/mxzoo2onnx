@@ -14,21 +14,21 @@ A sample Jupyter notebook to explain how to export MXNet pretrained model to ONN
 # Installation
 
 1. Clone this repository.
-  ```
-  git clone https://github.com/MACNICA-CLAVIS-NV/mxzoo2onnx
-  ```
+    ```
+    git clone https://github.com/MACNICA-CLAVIS-NV/mxzoo2onnx
+    ```
 
 1. Build the Docker cotainer image contains the required softwares for this Jupyter notebook.
-  ```
-  ./docker_build.sh
-  ```
+    ```
+    ./docker_build.sh
+    ```
 
 # Usage
 
 1. Run a container from the build image.
-  ```
-  ./docker_run.sh
-  ```
+    ```
+    ./docker_run.sh
+    ```
 
 1. Launch Jupyter Lab with the instruction displyed at the above step.
 
