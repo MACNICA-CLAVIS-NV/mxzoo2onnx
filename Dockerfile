@@ -25,7 +25,7 @@ RUN pip3 install --upgrade pybind11[global] numpy protobuf==3.16.0 && \
 
 WORKDIR /
 RUN mkdir -p ${REPOSITORY_DIR}
-COPY ./*.ipynb ${REPOSITORY_DIR}
+COPY ./*.ipynb ${REPOSITORY_DIR}/
 WORKDIR ${REPOSITORY_DIR}
 
 ENTRYPOINT ["jupyter", "lab", "--ip", "0.0.0.0", "--port", "8888", "--allow-root", "--notebook-dir=/"]

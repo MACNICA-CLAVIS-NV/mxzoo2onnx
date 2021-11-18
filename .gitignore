@@ -6,3 +6,4 @@ synset.txt
 *.dot
 *.png
 *.jpg
+*.npy
