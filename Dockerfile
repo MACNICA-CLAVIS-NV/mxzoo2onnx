@@ -17,7 +17,8 @@ RUN apt-get update && \
         python3-pip && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install --upgrade pybind11[global] numpy protobuf==3.16.0 && \
+RUN pip3 install --upgrade Pillow matplotlib && \ 
+    pip3 install --upgrade pybind11[global] numpy protobuf==3.16.0 && \
     pip3 install --upgrade onnx && \
     pip3 install --upgrade onnxruntime && \
     pip3 install --upgrade mxnet && \
